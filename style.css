@@ -1,0 +1,83 @@
+h1{
+    color: rgb(195, 207, 214);
+    font-size: 60px;
+    margin-top: -100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    animation-name: slideRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+img{
+    width:100px;
+    height:100px;
+    border-radius: 30% 0%  30% 0%;
+    border:3px solid  white;
+   
+
+
+}
+img:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+h2{
+    display: inline;
+    color:rgb(208, 56, 56);
+    background-color: aliceblue;
+    background: rgba(101, 100, 100, 0.6);
+    font-size: 30px;
+    margin-top: -30px;
+}
+#two{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+#three{
+    margin-bottom: 5px;
+    margin-left: 600px;
+}
+
+body{
+    background: url('https://wallpapercave.com/wp/wp3049872.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 300px;
+    margin-top:220px;
+}
+.body{
+    
+    height:400px;
+    width:1000px;
+    padding: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(60, 59, 59);
+    background: rgba(0,0,0, 0.5);
+
+    ;
+
+    
+}
+.box1{
+    width:400px;
+    height:auto;
+}
+.box2{
+    width:400px;
+    height:auto;
+}
+td{
+    width:50px;
+    height:50px;
+    padding:15px;
+}
+@keyframes slideRight {
+    from{transform:translate(100%)}
+    
+}@keyframes slideLeft {
+    from{transform:translate(100%)}
+    
+}
+@keyframes glow{
+    50%{box-shadow: 5px 5px 10px rgb(229, 102, 67) ;}
+}
